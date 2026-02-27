@@ -1,0 +1,2 @@
+# Segmentation_of_Pituitary_Gland_Adenomas_in_MRI_Using_Deep_Learning_Methods
+Deep learning–based pituitary adenoma segmentation from MRI, focusing on accuracy and robustness across heterogeneous datasets. Evaluates performance against expert annotations and explores augmentation strategies to improve generalization. Conducted as part of my M.Sc. in Bioinformatics (UCPH), supervised by Mostafa Mehdipour Ghazi.
