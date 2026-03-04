@@ -32,7 +32,7 @@ This project investigates **automated pituitary adenoma segmentation from MRI** 
 | **Clinical importance** | Accurate segmentation needed for surgical planning and monitoring |
 
 Deep learning offers the potential for **reproducible, scalable, and faster** segmentation workflows.
-
+(Jiang et al., 2022; Constantinescu et al., 2024;Černý et al., 2025; Larson et al., 2025)
 ---
 
 ## 🎯 Research Questions
@@ -209,4 +209,17 @@ python evaluate.py --pred OUTPUT_FOLDER --gt LABELS_FOLDER
 
 ---
 
+## 📚 References
+
+- Černý, M., May, J., Hamáčková, L., Hallak, H., Novotný, J., Baručić, D., Kybic, J., May, M., Májovský, M., Link, M. J., Balasubramaniam, N., Síla, D., Babničová, M., Netuka, D., & Liščák, R. (2025). Utility of artificial intelligence in radiosurgery for pituitary adenoma: a deep learning–based automated segmentation model and evaluation of its clinical applicability. *Journal of Neurosurgery*, 143(2), 413–422. [https://doi.org/10.3171/2024.12.JNS242167](https://doi.org/10.3171/2024.12.JNS242167)
+
+- Constantinescu, S. M., Duprez, T., Bonneville, J. F., & Maiter, D. (2024). How often should we perform magnetic resonance imaging (MRI) for the follow-up of pituitary adenoma? *Annales d'Endocrinologie*, 85(4), 300–307. [https://doi.org/10.1016/J.ANDO.2024.03.004](https://doi.org/10.1016/J.ANDO.2024.03.004)
+
+- Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. *Nature Methods*, 18(2), 203–211.
+
+- Jiang, X., Xiao, J., Zhang, Q., Wang, L., Jiang, J., & Lan, K. (2023). Improved U-Net based on cross-layer connection for pituitary adenoma MRI image segmentation. *Mathematical Biosciences and Engineering*, 20(1), 34–51. [https://doi.org/10.3934/MBE.2023003](https://doi.org/10.3934/MBE.2023003)
+
+- Larson, K. E., Augustinack, J. C., Mora, J., Shahzade, D., Rapalino, O., Fischl, B., & Greve, D. N. (2025). Automated Segmentation of the Pituitary and Pineal Glands. *Human Brain Mapping*, 46(15), e70384. [https://doi.org/10.1002/HBM.70384](https://doi.org/10.1002/HBM.70384)
+
+---
 > ✨ Developed as a **Master's Project in Bioinformatics** at the **University of Copenhagen**
