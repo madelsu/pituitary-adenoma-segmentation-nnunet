@@ -207,7 +207,7 @@ python evaluate.py --pred OUTPUT_FOLDER --gt LABELS_FOLDER
 | Role | Name | Affiliation |
 |---|---|---|
 | 🎓 Master's Student | **Manuela Del Castillo** | MSc Bioinformatics, University of Copenhagen |
-| 🧑‍🏫 Supervisor | **Mostafa Mehdipour Ghazi** | Assistant Professor, Department of Computer Science, University of Copenhagen |
+| 🧑‍🏫 Supervisor | **Mostafa Mehdipour Ghazi** | Assistant Professor, Ph.D., Department of Computer Science, University of Copenhagen |
 
 ---
 
