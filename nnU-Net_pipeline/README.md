@@ -73,7 +73,23 @@ The script also includes sanity checks that count the number of training images,
 
 **Script:** `train_501_3d_fullres_ds006248.sh`
 
-Trains the nnU-Net model using the **3D full resolution** configuration. The `all` fold flag trains on the entire training set (as opposed to individual cross-validation folds).
+Trains the nnU-Net model using the **3D full resolution** configuration. There are two training modes:
+
+**5-Fold Cross-Validation** — Splits the training data into 5 folds and trains a separate model on each. This is the standard approach for evaluating model performance, as it provides robust metrics across different data splits. Each fold uses 80% of the data for training and 20% for validation.
+
+```bash
+nnUNetv2_train DATASET_ID 3d_fullres 0 --npz
+nnUNetv2_train DATASET_ID 3d_fullres 1 --npz
+nnUNetv2_train DATASET_ID 3d_fullres 2 --npz
+nnUNetv2_train DATASET_ID 3d_fullres 3 --npz
+nnUNetv2_train DATASET_ID 3d_fullres 4 --npz
+```
+
+**Train on All Data** — Trains a single model using the entire training set (no validation split). This is useful for producing a final model for deployment or inference when cross-validation has already been performed.
+
+```bash
+nnUNetv2_train DATASET_ID 3d_fullres all --npz
+```
 
 ### SLURM Resources
 
@@ -83,12 +99,6 @@ Trains the nnU-Net model using the **3D full resolution** configuration. The `al
 | Memory | 40 GB |
 | Time | 48 hours |
 | GPU | 1 |
-
-### Key Command
-
-```bash
-nnUNetv2_train DATASET_ID 3d_fullres all --npz
-```
 
 The `--npz` flag saves softmax predictions alongside the model checkpoints, which are needed for ensemble inference.
 
