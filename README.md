@@ -18,7 +18,7 @@ This project evaluates the **nnU-Net v2 framework** across heterogeneous dataset
 
 This project investigates **automated pituitary adenoma segmentation from MRI** using the **nnU-Net v2 deep learning framework** (Isensee et al., 2021). The study evaluates segmentation accuracy against **expert annotations** and explores strategies such as **data augmentation and dataset merging** to improve performance across heterogeneous clinical datasets.
 
-> Developed as part of a **Master's Thesis in Bioinformatics** at the University of Copenhagen.
+> Developed as part of a **Master's Project in Bioinformatics** at the University of Copenhagen.
 
 ---
 
@@ -31,8 +31,10 @@ This project investigates **automated pituitary adenoma segmentation from MRI** 
 | **Anatomical complexity** | Small gland size and unclear tumor boundaries |
 | **Clinical importance** | Accurate segmentation needed for surgical planning and monitoring |
 
+<sub>References: Jiang et al. (2023) · Constantinescu et al. (2024) · Černý et al. (2025) · Larson et al. (2025)</sub>
+
 Deep learning offers the potential for **reproducible, scalable, and faster** segmentation workflows.
-(Jiang et al., 2022; Constantinescu et al., 2024;Černý et al., 2025; Larson et al., 2025)
+
 ---
 
 ## 🎯 Research Questions
