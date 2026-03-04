@@ -209,16 +209,4 @@ python evaluate.py --pred OUTPUT_FOLDER --gt LABELS_FOLDER
 
 ---
 
-## 📄 License
-
-*To be added.*
-
----
-
-## 🙏 Acknowledgements
-
-*To be added.*
-
----
-
-> ✨ Developed as a **Master's Thesis in Bioinformatics** at the **University of Copenhagen**
+> ✨ Developed as a **Master's Project in Bioinformatics** at the **University of Copenhagen**
